@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
 	return (
 		<div>
-			<p>App Component</p>
+			<Navbar />
 		</div>
 	);
 }

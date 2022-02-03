@@ -15,3 +15,36 @@
 	src: url("/src/assets/fonts/proximanova-semibold.woff2");
 	font-weight: 500;
 }
+
+:root {
+	--meli-yellow: #fff159;
+}
+
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Proxima Nova", sans-serif;
+	background-color: #EDEDED;
+}
+
+p {
+	margin: 0;
+}
+
+input, li {
+	font-family: "Proxima Nova", sans-serif;
+}
+
+button {
+	border: none;
+	font-family: "Proxima Nova", sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+		background-color: #FFF;
+	}
+}
