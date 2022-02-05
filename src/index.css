@@ -18,6 +18,7 @@
 
 :root {
 	--meli-yellow: #fff159;
+	--grey: rgba(0, 0, 0, 0.55);
 }
 
 body {

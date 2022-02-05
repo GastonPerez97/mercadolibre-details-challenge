@@ -1,0 +1,48 @@
+.text-interest, .breadcrumbs-row {
+	font-size: 14px;
+}
+
+.text-interest {
+	margin-bottom: 8px;
+}
+
+.breadcrumbs-row, .breadcrumbs, .share-or-sell {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.breadcrumbs-row ol, .breadcrumbs-row ul {
+	padding: 0;
+}
+
+.breadcrumbs-row li {
+	list-style: none;
+}
+
+.breadcrumbs p, .share-or-sell li:first-child {
+	margin-right: 12px;
+	cursor: pointer;
+	padding-right: 12px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.breadcrumbs-list, .breadcrumbs-list li {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs-list li, .share-or-sell li {
+	color: #3483fa;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.breadcrumbs-list li:hover, .share-or-sell li:hover {
+	color: #2968c8;
+}
+
+.breadcrumbs-arrow-right {
+	font-size: 19px;
+	color: #908a81;
+}

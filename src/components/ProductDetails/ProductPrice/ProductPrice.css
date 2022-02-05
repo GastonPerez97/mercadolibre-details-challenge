@@ -1,0 +1,144 @@
+.product-details {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+    font-size: 14px;
+    padding: 24px 16px;
+}
+
+.sold-quantity {
+	font-size: 14px;
+	color: var(--grey);
+	margin-bottom: 5px;
+}
+
+.product-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 15px;
+}
+
+.product-title h1 {
+	font-size: 22px;
+	margin: 0 28px 0 0;
+	line-height: 1.20;
+}
+
+.fav-icon {
+	color: #3483fa;
+	font-size: 38px;
+	cursor: pointer;
+	margin-top: -5px;
+}
+
+.product-price {
+	margin-bottom: 25px;
+}
+
+.product-price h2 {
+	font-size: 36px;
+	font-weight: 100;
+	margin: 0;
+}
+
+.payment-twelve-months {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.product-price p {
+	font-size: 18px;
+	line-height: 0.8;
+}
+
+.product-price sup {
+	font-size: 10px;
+	line-height: 1;
+	margin-left: 1px;
+}
+
+p.blue-anchor, span.blue-anchor {
+	color: #3483fa;
+	cursor: pointer;
+	font-size: 14px;
+	transition: 0.2s;
+}
+
+p.blue-anchor:hover, span.blue-anchor:hover {
+	color: #2968c8;
+}
+
+.free-shipping-and-return {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	column-gap: 8px;
+	color: #00a650;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.green-icon {
+	font-size: 23px;
+}
+
+.thirty-days-text {
+	font-size: 14px;
+	color: var(--grey);
+	margin: 2px 0;
+}
+
+.available-stock {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 30px 0 15px 0;
+}
+
+.stock {
+	font-size: 16px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 23px;
+	cursor: pointer;
+}
+
+.available-quantity {
+	font-size: 14px;
+	color: var(--grey);
+}
+
+.stock-down-arrow {
+	color: #3483fa;
+	font-size: 20px;
+}
+
+.purchase-benefits {
+	margin-top: 24px;
+}
+
+.purchase-benefits p {
+	color: var(--grey);
+}
+
+.compra-protegida {
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+.compra-protegida, .mercado-puntos {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 10px;
+}
+
+.product-details-btn {
+	font-size: 16px;
+	height: 48px;
+}
+
+.benefits-icon {
+	font-size: 16px;
+	color: var(--grey);
+	flex-shrink: 0;
+}

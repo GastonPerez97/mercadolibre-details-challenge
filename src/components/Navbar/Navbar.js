@@ -25,13 +25,12 @@ const Navbar = () => {
 	const width = useWindowWidth();
 	const [burgerMenu, setBurgerMenu] = useState(false);
 
-	console.log(width);
 	const handleBurgerMenu = () => {
 		setBurgerMenu(prevState => !prevState);
 	}
 
 	return (
-		<nav>
+		<nav className="nav-navbar">
 			{ width > 1200 ?
 			<div className="main-container">
 				<div className="navbar-search-container">
