@@ -10,7 +10,7 @@ const ProductCard = props => {
 			<div className="card-body">
 				<h3>$ { formattedPrice }</h3>
 				{ props.freeShipping && 
-					<p class="card-free-shipping">Env&iacute;o gratis</p>
+					<p className="card-free-shipping">Env&iacute;o gratis</p>
 				}
 				<p>{ props.title }</p>
 			</div>

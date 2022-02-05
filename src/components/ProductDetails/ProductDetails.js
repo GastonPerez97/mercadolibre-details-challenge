@@ -4,6 +4,7 @@ import SellerInfo from "./SellerInfo/SellerInfo";
 import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";
 import Gallery from "./Gallery/Gallery";
 import SellerPosts from "./SellerPosts/SellerPosts";
+import ProductFeatures from "./ProductFeatures/ProductFeatures";
 
 const ProductDetails = () => {
 	return (
@@ -17,8 +18,9 @@ const ProductDetails = () => {
 			<article className="left-column">
 				<Gallery />
 				
-				<div className="ml-50px">
+				<div className="mx-30px">
 					<SellerPosts />
+					<ProductFeatures />
 				</div>
 			</article>
 		</section>

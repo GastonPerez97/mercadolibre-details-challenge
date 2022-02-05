@@ -11,7 +11,7 @@ const SellerPosts = () => {
 			<hr className="product-details-hr" />
 
 			<div className="seller-posts-container">
-				<h2>Publicaciones del vendedor</h2>
+				<h2 className="product-details-subtitle">Publicaciones del vendedor</h2>
 
 				<div className="seller-posts-card-container">
 					<ProductCard

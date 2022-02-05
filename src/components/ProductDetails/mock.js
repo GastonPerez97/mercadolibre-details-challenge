@@ -139,14 +139,14 @@ const product = {
               },
             },
           ],
-          attribute_group_id: "",
-          attribute_group_name: "",
+          attribute_group_id: "OTHERS",
+          attribute_group_name: "Otros",
         },
         {
           id: "PRODUCT_TYPE",
           name: "Tipo de producto",
           value_id: null,
-          value_name: "peluche",
+          value_name: "Peluche",
           value_struct: null,
           values: [
             {
@@ -162,12 +162,12 @@ const product = {
           id: "ANIMAL",
           name: "Animal",
           value_id: null,
-          value_name: "stitch",
+          value_name: "626",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "stitch",
+              name: "626",
               struct: null,
             },
           ],
@@ -187,8 +187,8 @@ const product = {
               struct: null,
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
         {
           id: "CHARACTER",
@@ -203,14 +203,14 @@ const product = {
               struct: null,
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
         {
           id: "FRANCHISE",
           name: "Franquicia",
           value_id: null,
-          value_name: "Stitch",
+          value_name: "Lilo Y Stitch",
           value_struct: null,
           values: [
             {
@@ -219,8 +219,8 @@ const product = {
               struct: null,
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
         {
           id: "GTIN",
@@ -257,8 +257,8 @@ const product = {
               },
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
         {
           id: "IS_HYPOALLERGENIC_MATERIAL",
@@ -305,8 +305,8 @@ const product = {
               struct: null,
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
         {
           id: "MIN_RECOMMENDED_AGE",
@@ -334,7 +334,7 @@ const product = {
           id: "MODEL",
           name: "Modelo",
           value_id: null,
-          value_name: "Stitch",
+          value_name: "Stitch Grande",
           value_struct: null,
           values: [
             {
@@ -350,12 +350,12 @@ const product = {
           id: "SELLER_SKU",
           name: "SKU",
           value_id: null,
-          value_name: "1metro",
+          value_name: "4340691960334",
           value_struct: null,
           values: [
             {
               id: null,
-              name: "1metro",
+              name: "4340691960334",
               struct: null,
             },
           ],
@@ -381,8 +381,8 @@ const product = {
               },
             },
           ],
-          attribute_group_id: "OTHERS",
-          attribute_group_name: "Otros",
+          attribute_group_id: "",
+          attribute_group_name: "",
         },
       ],
       warnings: [],

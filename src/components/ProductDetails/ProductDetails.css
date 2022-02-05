@@ -28,5 +28,12 @@ section.product-details-grid {
 	background: rgba(0, 0, 0, 0.1);
 	border: 0px;
 	height: 1px;
-	margin: 0;
+	margin: 40px 0;
+}
+
+.product-details-subtitle {
+	color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
