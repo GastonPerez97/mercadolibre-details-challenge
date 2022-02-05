@@ -2,6 +2,7 @@ import "./ProductDetails.css";
 import ProductPrice from "./ProductPrice/ProductPrice";
 import SellerInfo from "./SellerInfo/SellerInfo";
 import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";
+import Gallery from "./Gallery/Gallery";
 
 const ProductDetails = () => {
 	return (
@@ -13,7 +14,7 @@ const ProductDetails = () => {
 			</article>
 
 			<article className="left-column">
-				<p>left column</p>
+				<Gallery />
 			</article>
 		</section>
 	);
