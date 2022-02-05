@@ -29,6 +29,7 @@
 	font-size: 38px;
 	cursor: pointer;
 	margin-top: -5px;
+	user-select: none;
 }
 
 .product-price {

@@ -1,13 +1,18 @@
+import { useState } from "react";
 import "./ProductPrice.css";
 import product from "../mock";
 
-import { BsHeart } from "react-icons/bs";
+import { BsHeart, BsHeartFill } from "react-icons/bs";
 import { BiTrophy } from "react-icons/bi";
 import { HiOutlineTruck } from "react-icons/hi";
 import { IoReturnDownBack, IoShieldCheckmarkOutline } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const ProductPrice = () => {
+	const [favorite, setFavorite] = useState(false);
+	
+	const handleFavorite = () => setFavorite(prevState => !prevState);
+
 	const formattedPrice = new Intl.NumberFormat('es-AR').format(product.price);
 	const paymentTwelveMonths = Math.trunc(product.price / 12);
 	const paymentTwelveMonthsDecimals = (product.price / 12 % 1).toFixed(2).substring(2);
@@ -18,7 +23,10 @@ const ProductPrice = () => {
 
 			<div className="product-title">
 				<h1>{ product.title }</h1>
-				<BsHeart className="fav-icon" />
+				{ favorite
+					? <BsHeartFill className="fav-icon" onClick={ handleFavorite }  />
+					: <BsHeart className="fav-icon" onClick={ handleFavorite } />
+				}
 			</div>
 
 			<div className="product-price">
