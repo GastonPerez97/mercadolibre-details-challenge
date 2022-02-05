@@ -35,7 +35,7 @@ const SellerPosts = () => {
 					/>
 				</div>
 
-				<p className="blue-anchor mt-24px">Ver m&aacute;s publicaciones del vendedor</p>
+				<p className="blue-anchor mt-24px d-inline-block">Ver m&aacute;s publicaciones del vendedor</p>
 			</div>
 		</section>
 	);

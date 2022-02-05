@@ -1,0 +1,49 @@
+.questAns-container {
+	margin-top: 40px;
+}
+
+.questAns-container h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.faq-buttons {
+	display: flex;
+	column-gap: 12px;
+	margin-bottom: 40px;
+}
+
+.faq-buttons button {
+	height: 32px;
+	white-space: nowrap;
+	padding: 0 12px;
+}
+
+.question-input {
+	display: flex;
+	column-gap: 15px;
+	height: 50px;
+	margin-bottom: 40px;
+}
+
+.question-input input {
+	width: 100%;
+	padding-left: 15px;
+	border: 1px solid rgba(185, 185, 185, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+	border-radius: 6px;
+	font-size: 16px;
+}
+
+.question-input input:focus {
+	outline: none;
+	padding-left: 14px;
+	border: 2px solid #2968c8;
+}
+
+.question-input button {
+	font-size: 16px;
+	border-radius: 6px;
+	width: 200px;
+}

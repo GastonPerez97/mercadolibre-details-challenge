@@ -37,7 +37,7 @@ const PaymentMethods = () => {
 			<img src={ rapipago } alt="Efectivo Rapipago" className="mr-24px" />
 			<img src={ pagoFacil } alt="Efectivo Pago Facil" className="mr-24px" />
 
-			<p className="blue-anchor mt-24px">Conoc&eacute; otros medios de pago</p>
+			<p className="blue-anchor mt-24px d-inline-block">Conoc&eacute; otros medios de pago</p>
 		</div>
 	);
 }

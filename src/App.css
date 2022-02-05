@@ -3,6 +3,10 @@
 	margin: auto;
 }
 
+.d-inline-block {
+	display: inline-block;
+}
+
 /* -------- MARGINS -------- */
 
 .mt-8px {

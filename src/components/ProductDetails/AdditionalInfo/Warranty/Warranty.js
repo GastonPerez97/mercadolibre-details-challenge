@@ -11,7 +11,7 @@ const Warranty = () => {
 			<h3 className="additional-info-subtitle mt-0 mb-12px">Garant&iacute;a del vendedor</h3>
 			<p className="text-grey mb-24px">Sin garant&iacute;a</p>
 
-			<p className="blue-anchor">Conocer m&aacute;s sobre garant&iacute;a</p>
+			<p className="blue-anchor d-inline-block">Conocer m&aacute;s sobre garant&iacute;a</p>
 		</div>
 	);
 }

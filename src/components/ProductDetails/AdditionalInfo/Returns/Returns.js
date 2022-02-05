@@ -7,7 +7,7 @@ const Returns = () => {
 
 			<p className="text-grey">Ten&eacute;s 30 d&iacute;as desde que recib&iacute;s el producto para devolverlo. &iexcl;No importa el motivo!</p>
 
-			<p className="blue-anchor mt-24px">Conocer más sobre devoluciones</p>
+			<p className="blue-anchor mt-24px d-inline-block">Conocer más sobre devoluciones</p>
 		</div>
 	);
 }

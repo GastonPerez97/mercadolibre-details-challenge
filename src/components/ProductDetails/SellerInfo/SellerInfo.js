@@ -62,7 +62,7 @@ const SellerInfo = () => {
 				</div>
 			</div>
 
-			<p className="more-info">Ver m&aacute;s datos de este vendedor</p>
+			<p className="more-info d-inline-block">Ver m&aacute;s datos de este vendedor</p>
 		</div>
 	);
 }

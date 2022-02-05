@@ -384,6 +384,38 @@ const product = {
           attribute_group_name: "",
         },
       ],
+	  questions: [
+		  {
+			question: "Hola tenes en un metro?",
+			answer: "Hola si tenemos stock",
+			answerDate: "13/01/2022"
+		  },
+		  {
+			question: "Hoy esta abierto para poder pasar a verlo?",
+			answer: "Hola, no. Saludos!",
+			answerDate: "24/12/2021"
+		  },
+		  {
+			question: "Hola tiene disponible para compra inmediata? Envío a Córdoba",
+			answer: "Que tal, si tenemos stock!",
+			answerDate: "21/12/2021"
+		  },
+		  {
+			question: "Si lo compro hoy para cuando masomenos llegaría? Soy de Santa Cruz",
+			answer: "Hola antes de la compra te figura que día te llega, por lo general 3-4 días hábiles o menos según el correo",
+			answerDate: "18/11/2021"
+		  },
+		  {
+			question: "Viene armado o hay que ponerle el relleno?",
+			answer: "Hola si tenemos stock, viene armado",
+			answerDate: "18/11/2021"
+		  },
+		  {
+			question: "Si lo compro el sábado, llega el mismo día?",
+			answer: "Hola, sí, por Mercado Envíos!",
+			answerDate: "02/11/2021"
+		  },
+	  ],
       warnings: [],
       listing_source: "",
       variations: [],
