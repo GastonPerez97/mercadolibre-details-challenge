@@ -59,11 +59,10 @@ const product = {
         },
       ],
       video_id: null,
-      descriptions: [
-        {
+      description: {
           id: "MLA741093357-1768858232",
-        },
-      ],
+		  value: "Peluche Stitch 1 Metro Importado, 100 cm reales.\n\nExcelente calidad y diseño Premium.\nOjos Bordados y relleno de vellón siliconado súper soft.\nMuy suave y más hermosos que nunca.\n\nHorarios de Atención:\n- Lunes a Viernes: 12hs a 20hs.\n- Sábados Domingos y Feriados: 12hs a 18hs.\n\nIMPORTANTE: Debajo de cada publicación puede ver los productos que tenemos publicados en \"Más productos del Vendedor\", si usted va a realizar la compra con Mercado Envíos por más de un producto y quiere abonar un solo envío nos puede solicitar.\n\nTu consulta no molesta, preguntar ante cualquier duda.\nRecorda que tu oferta es un compromiso de compra y deberás comunicarte dentro de los 2-3 dias luego de la misma.\n\nVisita nuestros otros artículos publicados. ¡Muchas gracias!",
+      },
       accepts_mercadopago: true,
       non_mercado_pago_payment_methods: [],
       shipping: {

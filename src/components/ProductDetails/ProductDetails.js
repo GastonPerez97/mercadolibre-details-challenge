@@ -5,6 +5,7 @@ import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";
 import Gallery from "./Gallery/Gallery";
 import SellerPosts from "./SellerPosts/SellerPosts";
 import ProductFeatures from "./ProductFeatures/ProductFeatures";
+import ProductDescription from "./ProductDescription/ProductDescription";
 
 const ProductDetails = () => {
 	return (
@@ -21,6 +22,7 @@ const ProductDetails = () => {
 				<div className="mx-30px">
 					<SellerPosts />
 					<ProductFeatures />
+					<ProductDescription />
 				</div>
 			</article>
 		</section>
