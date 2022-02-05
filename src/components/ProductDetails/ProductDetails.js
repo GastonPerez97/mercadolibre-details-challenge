@@ -3,6 +3,7 @@ import ProductPrice from "./ProductPrice/ProductPrice";
 import SellerInfo from "./SellerInfo/SellerInfo";
 import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";
 import Gallery from "./Gallery/Gallery";
+import SellerPosts from "./SellerPosts/SellerPosts";
 
 const ProductDetails = () => {
 	return (
@@ -15,6 +16,10 @@ const ProductDetails = () => {
 
 			<article className="left-column">
 				<Gallery />
+				
+				<div className="ml-50px">
+					<SellerPosts />
+				</div>
 			</article>
 		</section>
 	);

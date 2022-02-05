@@ -16,12 +16,17 @@ section.product-details-grid {
 	padding: 1em;
 }
 
-
-
 /* ------ LEFT COLUMN ------ */
 
 .left-column {
 	grid-column: 1;
 	grid-row: 1;
 	padding: 1em;
+}
+
+.product-details-hr {
+	background: rgba(0, 0, 0, 0.1);
+	border: 0px;
+	height: 1px;
+	margin: 0;
 }

@@ -53,8 +53,6 @@ const Gallery = () => {
 					<img src={ selectedPicture.url } alt="Imagen del producto" />
 				</div>
 			</div>
-
-			<hr className="gallery-hr" />
 		</section>
 	);
 }
