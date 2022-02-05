@@ -1,4 +1,4 @@
-![MercadoLibre](./public/favicon.svg "MercadoLibre")
+![MercadoLibre](./public/favicon.ico "MercadoLibre")
 
 # Mercado Libre challenge
 
