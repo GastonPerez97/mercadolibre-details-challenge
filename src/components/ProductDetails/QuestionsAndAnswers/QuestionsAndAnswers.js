@@ -1,10 +1,28 @@
 import "./QuestionsAndAnswers.css";
 import product from "../mock";
 import Question from "./Question/Question";
+import { useState } from "react"
 
 const QuestionsAndAnswers = () => {
-	const questionElements = product.questions.map(question => (
+	const [newQuestion, setNewQuestion] = useState("");
+	const [newQuestions, setNewQuestions] = useState([]);
+
+	const handleChange = event => setNewQuestion(event.target.value);
+	
+	const handleSubmit = () => {
+		if (newQuestion !== "") {
+			setNewQuestions(prevState => [newQuestion, ...prevState]);
+			setNewQuestion("");
+		}
+	};
+
+	const newQuestionElements = newQuestions.map((question, index) => (
+		<Question key={ index } question={ question } />
+	));
+
+	const questionElements = product.questions.map((question, index) => (
 		<Question
+			key={ index }
 			question={ question.question }
 			answer={ question.answer }
 			answerDate={ question.answerDate }
@@ -27,13 +45,21 @@ const QuestionsAndAnswers = () => {
 			<h3>Preguntale al vendedor</h3>
 
 			<div className="question-input">
-				<input type="text" placeholder="Escrib&iacute; tu pregunta..." />
-				<button className="btn-blue">Preguntar</button>
+				<input
+					type="text"
+					name="newQuestion"
+					onChange={ handleChange }
+					value={ newQuestion }
+					placeholder="Escrib&iacute; tu pregunta..."
+				/>
+
+				<button className="btn-blue" onClick={ handleSubmit }>Preguntar</button>
 			</div>
 
 			<h3>&Uacute;ltimas realizadas</h3>
 
 			<div className="last-questions">
+				{ newQuestionElements }
 				{ questionElements }
 			</div>
 
