@@ -1,18 +1,25 @@
+import { useState } from "react";
 import "./QuestionsAndAnswers.css";
+
 import product from "../mock";
 import Question from "./Question/Question";
-import { useState } from "react"
+
+import { RiErrorWarningFill } from "react-icons/ri";
 
 const QuestionsAndAnswers = () => {
 	const [newQuestion, setNewQuestion] = useState("");
 	const [newQuestions, setNewQuestions] = useState([]);
+	const [showNewQuestionError, setShowNewQuestionError] = useState(false);
 
 	const handleChange = event => setNewQuestion(event.target.value);
-	
+
 	const handleSubmit = () => {
 		if (newQuestion !== "") {
 			setNewQuestions(prevState => [newQuestion, ...prevState]);
 			setNewQuestion("");
+			setShowNewQuestionError(false);
+		} else {
+			setShowNewQuestionError(true);
 		}
 	};
 
@@ -55,6 +62,13 @@ const QuestionsAndAnswers = () => {
 
 				<button className="btn-blue" onClick={ handleSubmit }>Preguntar</button>
 			</div>
+
+			{ (showNewQuestionError && newQuestion.length <= 0) &&
+				<small className="new-review-error">
+					<RiErrorWarningFill />
+					Complet&aacute; este campo.
+				</small>
+			}
 
 			<h3>&Uacute;ltimas realizadas</h3>
 

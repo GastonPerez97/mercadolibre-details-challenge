@@ -6,6 +6,7 @@
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 .faq-buttons {
@@ -24,7 +25,6 @@
 	display: flex;
 	column-gap: 15px;
 	height: 50px;
-	margin-bottom: 40px;
 }
 
 .question-input input {
