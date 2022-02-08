@@ -1,0 +1,37 @@
+.review-container {
+	margin-bottom: 25px;
+}
+
+.review-container h3 {
+	color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+.review-container p {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.review-container .review-star-filled:first-child,
+.review-container .review-star-empty:first-child {
+	margin-left: 0;
+}
+
+.review-thumb-icon {
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.review-likes-container {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.review-likes {
+	padding: 10px 10px 10px 0;
+	display: flex;
+	align-items: center;
+	user-select: none;
+}

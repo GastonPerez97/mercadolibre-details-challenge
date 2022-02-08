@@ -7,6 +7,7 @@ import SellerPosts from "./SellerPosts/SellerPosts";
 import ProductFeatures from "./ProductFeatures/ProductFeatures";
 import ProductDescription from "./ProductDescription/ProductDescription";
 import QuestionsAndAnswers from "./QuestionsAndAnswers/QuestionsAndAnswers";
+import Reviews from "./Reviews/Reviews";
 
 const ProductDetails = () => {
 	return (
@@ -25,6 +26,7 @@ const ProductDetails = () => {
 					<ProductFeatures />
 					<ProductDescription />
 					<QuestionsAndAnswers />
+					<Reviews />
 				</div>
 			</article>
 		</section>
