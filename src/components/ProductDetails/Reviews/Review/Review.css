@@ -35,3 +35,7 @@
 	align-items: center;
 	user-select: none;
 }
+
+.review-hidden {
+	display: none;
+}

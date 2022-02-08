@@ -427,14 +427,6 @@ const product = {
 		  },
 		  {
 			id: 2,
-			title: "Es muy bello",
-			comments: "Espectacular!! Super bello y mi hija feliz. Excelente calidad y compromiso.",
-			rating: 5,
-			likes: 2,
-			dislikes: 1
-		  },
-		  {
-			id: 3,
 			title: "Muy buena calidad",
 			comments: "Buen material y calidad, lo recomiendo, saludos.",
 			rating: 4,
@@ -442,7 +434,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 4,
+			id: 3,
 			title: "Mal cosido.",
 			comments: "El peluche la verdad es muy parecido al de las fotos, pero a mi me vino todo descosido, al otro día de comprarlo ya estaba roto, no vale la pena.",
 			rating: 2,
@@ -450,15 +442,7 @@ const product = {
 			dislikes: 6
 		  },
 		  {
-			id: 5,
-			title: "Regular",
-			comments: "No era lo que esperaba, muy chico, en las fotos se ve más grande.",
-			rating: 3,
-			likes: 2,
-			dislikes: 2
-		  },
-		  {
-			id: 6,
+			id: 4,
 			title: "Muy bueno",
 			comments: "Esta tremendo. Muy buena calidad y excelentes terminaciones. Mi única critica, es que el muñeco no es tan grande como aparenta en la imagen.",
 			rating: 5,
@@ -466,23 +450,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 7,
-			title: "Muy buena calidad y terminación.",
-			comments: "Era para mi hija de 7, esta feliz, muy buena calidad y terminacion.",
-			rating: 5,
-			likes: 0,
-			dislikes: 0
-		  },
-		  {
-			id: 8,
-			title: "Excelente producto",
-			comments: "Muy lindo el peluche. Se los recomiendo para regalo una hermosura.",
-			rating: 5,
-			likes: 1,
-			dislikes: 0
-		  },
-		  {
-			id: 9,
+			id: 5,
 			title: "Excelente producto y atención",
 			comments: "Excelente producto, mi hija quedó contenta con su Stitch! Lo fui a retirar al local y el empleado era re macanudo.",
 			rating: 5,
@@ -490,7 +458,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 10,
+			id: 6,
 			title: "Bueno",
 			comments: "Es la mitad del tamaño de la foto.",
 			rating: 3,
@@ -498,7 +466,7 @@ const product = {
 			dislikes: 1
 		  },
 		  {
-			id: 11,
+			id: 7,
 			title: "Bien",
 			comments: "Exelente ningún problema, sin nada más que comentar.",
 			rating: 4,
@@ -506,7 +474,7 @@ const product = {
 			dislikes: 1
 		  },
 		  {
-			id: 12,
+			id: 8,
 			title: "Super recomendable",
 			comments: "Excelente producto, muy buena calidad, realmente lo esperado.",
 			rating: 5,
@@ -514,7 +482,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 13,
+			id: 9,
 			title: "Bueno",
 			comments: "Muy lindo! Muy conforme con el peluche.",
 			rating: 5,
@@ -522,7 +490,7 @@ const product = {
 			dislikes: 1
 		  },
 		  {
-			id: 14,
+			id: 10,
 			title: "Super recomendable",
 			comments: "Excelente producto, muy buena calidad, realmente lo esperado.",
 			rating: 5,
@@ -530,15 +498,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 15,
-			title: "No es el peluche de la foto.",
-			comments: "Deberian poner fotos reales. Tuve que darle puntadas a la cabeza para darle forma.",
-			rating: 2,
-			likes: 2,
-			dislikes: 0
-		  },
-		  {
-			id: 16,
+			id: 11,
 			title: "Es otro producto",
 			comments: "No es el mismo que figura en la publicación.",
 			rating: 1,
@@ -546,7 +506,7 @@ const product = {
 			dislikes: 0
 		  },
 		  {
-			id: 17,
+			id: 12,
 			title: "Bueno pero con problemas",
 			comments: "El producto es lindo, pero me vino un descosido.",
 			rating: 2,

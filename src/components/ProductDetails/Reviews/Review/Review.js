@@ -26,7 +26,7 @@ const Review = props => {
     ));
 
 	return (
-		<article className="review-container">
+		<article className={`review-container ${!props.isVisible ? "review-hidden" : ""}`}>
 			{ starsElement }
 
 			<h3>{ props.title }</h3>

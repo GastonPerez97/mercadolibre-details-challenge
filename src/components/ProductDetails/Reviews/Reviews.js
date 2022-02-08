@@ -23,6 +23,7 @@ const Reviews = () => {
 	const [reviews, setReviews] = useState(product.reviews);
 	const [newReviewFormData, setNewReviewFormData] = useState(createEmptyReview());
 	const [showNewReviewErrors, setShowNewReviewErrors] = useState(false);
+	const [showReviewsWithType, setShowReviewsWithType] = useState("all");
 
 	const getNumberOfReviewsWithRating = ratingNumber => {
 		let count = 0;
@@ -69,6 +70,15 @@ const Reviews = () => {
 		});
 	}
 
+	const isReviewVisible = reviewRating => {
+		if ((showReviewsWithType === "positives" && reviewRating < 4)
+			|| (showReviewsWithType === "negatives" && reviewRating > 3)) {		
+			return false;
+		} else {
+			return true;
+		}
+	}
+
 	const reviewElements = reviews.map(review => (
 		<Review
 			key={ review.id }
@@ -81,6 +91,7 @@ const Reviews = () => {
 			handleDislike={ () => handleVote(review.id, "dislike", "add") }
 			removeLike={ () => handleVote(review.id, "like", "remove") }
 			removeDislike={ () => handleVote(review.id, "dislike", "remove") }
+			isVisible={ isReviewVisible(review.rating) }
 		/>
 	));
 
@@ -235,9 +246,26 @@ const Reviews = () => {
 
 			<div>
 				<div className="reviews-main-buttons">
-					<button className="btn-review-category">Todas</button>
-					<button className="btn-review-category">Positivas</button>
-					<button className="btn-review-category">Negativas</button>
+					<button
+						className={`btn-review-category ${showReviewsWithType === "all" ? "btn-review-category-selected" : ""}`}
+						onClick={ () => setShowReviewsWithType("all") }
+					>
+						Todas
+					</button>
+
+					<button
+						className={`btn-review-category ${showReviewsWithType === "positives" ? "btn-review-category-selected" : ""}`}
+						onClick={ () => setShowReviewsWithType("positives") }
+					>
+						Positivas
+					</button>
+
+					<button
+						className={`btn-review-category ${showReviewsWithType === "negatives" ? "btn-review-category-selected" : ""}`}
+						onClick={ () => setShowReviewsWithType("negatives") }
+					>
+						Negativas
+					</button>
 				</div>
 
 				{ reviewElements }
