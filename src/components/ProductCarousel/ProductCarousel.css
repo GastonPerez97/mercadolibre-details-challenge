@@ -1,0 +1,17 @@
+.product-carousel {
+	margin-top: 40px;
+}
+
+.product-carousel-title {
+	color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 24px;
+}
+
+.products-carousel-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}

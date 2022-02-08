@@ -44,6 +44,29 @@ button {
 	cursor: pointer;
 }
 
+footer {
+	text-align: center;
+	padding: 2em 0 2em 0;
+	width: 100%;
+	background-color: #FFF;
+	border-top: 1px solid #eee;
+	margin-top: 90px;
+}
+
+footer a {
+	color: #3484fa;
+	transition: 0.2s;
+}
+
+footer a:hover {
+	color: #2968c8;
+}
+
+footer p {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
 @media screen and (max-width: 1200px) {
 	body {
 		background-color: #FFF;

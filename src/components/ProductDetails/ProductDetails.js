@@ -1,4 +1,5 @@
 import "./ProductDetails.css";
+
 import ProductPrice from "./ProductPrice/ProductPrice";
 import SellerInfo from "./SellerInfo/SellerInfo";
 import AdditionalInfo from "./AdditionalInfo/AdditionalInfo";
