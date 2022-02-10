@@ -31,7 +31,7 @@ const Navbar = props => {
 	}
 
 	return (
-		<nav className={`nav-navbar ${burgerMenu ? "burger-menu-on" : ""}`}>
+		<nav className={`nav-navbar ${(burgerMenu && width <= 1200) ? "burger-menu-on" : ""}`}>
 			{ width > 1200 ?
 			<div className="main-container">
 				<div className="navbar-search-container">
