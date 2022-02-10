@@ -16,6 +16,12 @@ Debemos crear un clon de [la página de detalle de producto](https://articulo.me
 
 Mock del producto ubicado en `./src/components/ProductDetails/mock.js`.
 
+## 🛠️ Tecnologías utilizadas:
+- HTML 5
+- CSS 3
+- JavaScript
+- [React](https://reactjs.org/) - JS library
+
 ## ✅ Definición funcional:
 
 Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo los siguientes los elementos requeridos:
@@ -33,5 +39,6 @@ Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo
 
 ## 👨‍💻 Agregados por mi cuenta:
 - [x] Validaciones al agregar una pregunta u opinión.
-- [x] Sección de características del producto, cards de productos e información adicional de la publicación (devolución gratis, garantía, medios de pago, etc).
+- [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos.
+- [x] Sección de características del producto, cards de productos e información adicional de la publicación (devolución gratis, garantía, medios de pago, otras publicaciones, etc).
 - [x] Mobile responsive.
