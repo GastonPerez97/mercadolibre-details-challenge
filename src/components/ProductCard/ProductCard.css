@@ -45,6 +45,12 @@
 	margin-bottom: 3px;
 }
 
+@media screen and (max-width: 1200px) {
+	.card-body p {
+		width: 90%;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 main.dark-mode .card-container {

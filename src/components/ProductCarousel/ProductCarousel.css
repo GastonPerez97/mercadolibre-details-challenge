@@ -15,6 +15,22 @@
 	align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+	.product-carousel {
+		padding: 0 16px;
+	}
+
+	.products-carousel-container {
+		overflow-x: auto;
+    	overflow-y: hidden;
+		column-gap: 20px;
+	}
+
+	.products-carousel-container * {
+		width: 225px;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 main.dark-mode .product-carousel-title {

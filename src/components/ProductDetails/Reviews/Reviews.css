@@ -170,6 +170,24 @@
 	margin-top: 5px;
 }
 
+@media screen and (max-width: 475px) {
+	.reviews-summary-container {
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 25px;
+	}
+
+	.new-review-stars {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.btn-review-category {
+		padding: 15px 5px;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 main.dark-mode .reviews-summary-container p,

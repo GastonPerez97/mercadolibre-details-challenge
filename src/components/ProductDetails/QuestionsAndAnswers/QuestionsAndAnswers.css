@@ -47,3 +47,10 @@
 	border-radius: 6px;
 	width: 200px;
 }
+
+@media screen and (max-width: 1200px) {
+	.faq-buttons {
+		flex-wrap: wrap;
+		row-gap: 15px;
+	}
+}

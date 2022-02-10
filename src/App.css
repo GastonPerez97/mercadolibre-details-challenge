@@ -161,6 +161,12 @@
 	background-color: rgba(65, 137, 230, 0.2);
 }
 
+@media screen and (max-width: 1200px) {
+	.main-container {
+		width: auto;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 header, main, footer, button, svg, p, span, small, h1, h2, h3, h4, h5, h6 {

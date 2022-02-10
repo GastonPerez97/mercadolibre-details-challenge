@@ -31,6 +31,25 @@
 	margin: 35px auto 15px auto;
 }
 
+@media screen and (max-width: 1200px) {
+	.gallery-container {
+		justify-content: center;
+		height: auto;
+	}
+
+	.thumbnail-container {
+		flex-shrink: 0;
+	}
+
+	.main-img {
+		margin: 20px;
+	}
+
+	.main-img img {
+		width: 100%;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 main.dark-mode .thumbnail-container img {

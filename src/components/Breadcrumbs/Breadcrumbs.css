@@ -46,3 +46,31 @@
 	font-size: 19px;
 	color: #908a81;
 }
+
+@media screen and (max-width: 1200px) {
+	.text-interest, .breadcrumbs-row {
+		padding: 0 10px;
+	}
+
+	.share-or-sell {
+		margin: 0;
+	}
+
+	.text-interest {
+		margin-bottom: 0;
+	}
+	
+	.breadcrumbs-row {
+		flex-wrap: wrap;
+	}
+
+	.breadcrumbs nav {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.share-or-sell {
+		margin-bottom: 15px;
+	}
+}

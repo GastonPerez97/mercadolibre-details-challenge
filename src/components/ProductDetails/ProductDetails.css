@@ -38,6 +38,17 @@ section.product-details-grid {
     margin-bottom: 24px;
 }
 
+@media screen and (max-width: 1200px) {
+	section.product-details-grid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.left-column div.mx-30px {
+		margin: 0;
+	}
+}
+
 /* -------- DARK MODE -------- */
 
 main.dark-mode .product-details-subtitle {

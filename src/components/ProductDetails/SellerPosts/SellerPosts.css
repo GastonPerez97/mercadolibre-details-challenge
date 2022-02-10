@@ -6,3 +6,15 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+@media screen and (max-width: 1200px) {
+	.seller-posts-card-container {
+		overflow-x: auto;
+    	overflow-y: hidden;
+		column-gap: 20px;
+	}
+
+	.seller-posts-card-container * {
+		width: 225px;
+	}
+}

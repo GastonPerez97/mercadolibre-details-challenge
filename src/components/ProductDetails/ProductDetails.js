@@ -1,3 +1,5 @@
+import useWindowWidth from "../../hooks/useWindowWidth";
+
 import "./ProductDetails.css";
 
 import ProductPrice from "./ProductPrice/ProductPrice";
@@ -11,16 +13,19 @@ import QuestionsAndAnswers from "./QuestionsAndAnswers/QuestionsAndAnswers";
 import Reviews from "./Reviews/Reviews";
 
 const ProductDetails = () => {
+	const width = useWindowWidth();
+
 	return (
 		<section className="main-container product-details-grid bg-white">
 			<article className="right-column">
+				{ width <= 1200 && <Gallery /> }
 				<ProductPrice />
 				<SellerInfo />
 				<AdditionalInfo />
 			</article>
 
 			<article className="left-column">
-				<Gallery />
+				{ width > 1200 && <Gallery /> }
 				
 				<div className="mx-30px">
 					<SellerPosts />

@@ -68,9 +68,3 @@ footer p {
 	font-size: 14px;
 	margin-top: 10px;
 }
-
-@media screen and (max-width: 1200px) {
-	body {
-		background-color: #FFF;
-	}
-}
