@@ -40,6 +40,7 @@ Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo
 - [x] Modo oscuro.
 
 ## 👨‍💻 Agregados por mi cuenta:
+- [x] Poder agregar preguntas.
 - [x] Validaciones al agregar una pregunta u opinión.
 - [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos.
 - [x] Sección de características del producto, cards de productos e información adicional de la publicación (devolución gratis, garantía, medios de pago, otras publicaciones, etc).
