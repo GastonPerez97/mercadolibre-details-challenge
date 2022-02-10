@@ -106,7 +106,7 @@ const Reviews = () => {
 				<div className="review-counter-bar">
 					<span
 						className="review-counter-bar-filled"
-						style={{width: `${getNumberOfReviewsWithRating(numberOfStars) * 100 / reviews.length}%` }}>
+						style={{width: `${getNumberOfReviewsWithRating(numberOfStars) * 100 / reviews.length}%`}}>
 					</span>
 				</div>
 

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
@@ -6,16 +7,27 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import ProductCarousel from "./components/ProductCarousel/ProductCarousel";
 
 const App = () => {
+	const [darkMode, setDarkMode] = useState(false);
+
+	const toggleDarkMode = () => setDarkMode(prevState => !prevState);
+
 	return (
 		<>
-			<main>
-				<Navbar />
+			<header className={darkMode ? "dark-mode" : ""}>
+				<Navbar
+					darkMode={ darkMode }
+					toggleDarkMode={ toggleDarkMode }
+				/>
+			</header>
+
+			<main className={darkMode ? "dark-mode" : ""}>
 				<Breadcrumbs />
 				<ProductDetails />
 				<ProductCarousel />
 			</main>
 
-			<footer>Desarrollado por&nbsp;
+			<footer className={darkMode ? "dark-mode" : ""}>
+				Desarrollado por&nbsp;
 				<a href="https://gastonperez.ar/" target="_blank" rel="noreferrer">
 					Gast&oacute;n P&eacute;rez
 				</a>

@@ -39,3 +39,10 @@
 .review-hidden {
 	display: none;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .review-container p,
+main.dark-mode .review-container h3 {
+	color: rgb(230, 230, 230);
+}

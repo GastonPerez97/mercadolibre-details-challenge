@@ -26,6 +26,9 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Proxima Nova", sans-serif;
+}
+
+main {
 	background-color: #EDEDED;
 }
 
@@ -50,7 +53,6 @@ footer {
 	width: 100%;
 	background-color: #FFF;
 	border-top: 1px solid #eee;
-	margin-top: 90px;
 }
 
 footer a {

@@ -4,11 +4,12 @@ import useWindowWidth from "../../hooks/useWindowWidth";
 import "./Navbar.css";
 
 import logo from "../../assets/logo.png";
+import logoDarkMode from "../../assets/logo-dark-mode.png";
 import logoSmall from "../../assets/logo-small.png";
 
 import { AiOutlineSearch, AiOutlineClockCircle, AiOutlineUnorderedList } from "react-icons/ai";
 import { BiUser, BiShoppingBag } from "react-icons/bi";
-import { BsGift } from "react-icons/bs";
+import { BsGift, BsToggleOn, BsToggleOff, BsSun, BsMoon } from "react-icons/bs";
 import { GiHamburgerMenu, GiReceiveMoney } from "react-icons/gi";
 import { GrHomeRounded, GrClose } from "react-icons/gr";
 import { HiOutlineLocationMarker, HiOutlineShoppingCart, HiDownload } from "react-icons/hi";
@@ -21,7 +22,7 @@ import { MdKeyboardArrowDown,
 } from "react-icons/md";
 import { TiDocumentText } from "react-icons/ti";
 
-const Navbar = () => {
+const Navbar = props => {
 	const width = useWindowWidth();
 	const [burgerMenu, setBurgerMenu] = useState(false);
 
@@ -30,12 +31,12 @@ const Navbar = () => {
 	}
 
 	return (
-		<nav className="nav-navbar">
+		<nav className={`nav-navbar ${burgerMenu ? "burger-menu-on" : ""}`}>
 			{ width > 1200 ?
 			<div className="main-container">
 				<div className="navbar-search-container">
 					<img
-						src={logo}
+						src={ props.darkMode ? logoDarkMode : logo }
 						alt="Logo de Mercado Libre: apreton de manos con texto mercado libre"
 						style={{cursor: "pointer"}}
 					/>
@@ -72,6 +73,17 @@ const Navbar = () => {
 							<button>Moda</button>
 							<button>Vender</button>
 							<button>Ayuda</button>
+
+							<div className="btn-dark-mode">
+								<BsSun className="dark-mode-icon" />
+
+								{ props.darkMode
+									? <BsToggleOn onClick={ props.toggleDarkMode } /> 
+									: <BsToggleOff onClick={ props.toggleDarkMode } />
+								}
+
+								<BsMoon className="dark-mode-icon" />
+							</div>
 						</div>
 					</div>
 
@@ -98,9 +110,9 @@ const Navbar = () => {
 					</div>
 
 					{burgerMenu ?
-					<GrClose className="mobile-top-icon" onClick={handleBurgerMenu} />
+					<GrClose className="mobile-top-icon" onClick={ handleBurgerMenu } />
 					:
-					<GiHamburgerMenu className="mobile-top-icon" onClick={handleBurgerMenu} />
+					<GiHamburgerMenu className="mobile-top-icon" onClick={ handleBurgerMenu } />
 					}
 
 					<HiOutlineShoppingCart className="mobile-top-icon" />

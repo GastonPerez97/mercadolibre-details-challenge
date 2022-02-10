@@ -41,12 +41,26 @@
 	margin-bottom: 24px;
 }
 
+.mb-40px {
+	margin-bottom: 40px;
+}
+
 .mr-24px {
 	margin-right: 24px;
 }
 
 .mx-30px {
 	margin: 0 30px;
+}
+
+/* -------- PADDINGS -------- */
+
+.pt-15px {
+	padding-top: 15px;
+}
+
+.pb-90px {
+	padding-bottom: 90px;
 }
 
 /* -------- FONT SIZES -------- */
@@ -141,4 +155,57 @@
 
 .btn-light-blue:hover {
 	background-color: rgba(65, 137, 230, 0.2);
+}
+
+/* -------- DARK MODE -------- */
+
+/* header.dark-mode button {
+	background: none !important;
+} */
+
+/* body {
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+} */
+
+header.dark-mode nav.nav-navbar,
+header.dark-mode nav.nav-navbar > *,
+header.dark-mode .navbar-mobile-main-container,
+header.dark-mode .shipping-address-mobile {
+	background-color: #2a2a2a;
+}
+
+header.dark-mode nav.nav-navbar {
+	border-bottom-color: #494949;
+}
+
+header.dark-mode nav.nav-navbar p,
+header.dark-mode nav.nav-navbar h3,
+header.dark-mode nav.nav-navbar button,
+header.dark-mode nav.nav-navbar svg:not(.search-icon) {
+	color: rgb(230, 230, 230);
+}
+
+header.dark-mode .btn-outline-blue {
+	background: transparent;
+}
+
+main.dark-mode {
+	background-color: #353535;
+	color: rgb(230, 230, 230);
+}
+
+main.dark-mode .product-details-grid {
+	background-color: #2a2a2a;
+}
+
+main.dark-mode .product-details,
+main.dark-mode .seller-info,
+main.dark-mode .additional-info-container {
+	background-color: #232323;
+}
+
+footer.dark-mode {
+	background-color: #2a2a2a;
+	color: rgb(230, 230, 230);
+	border-top-color: #494949;
 }

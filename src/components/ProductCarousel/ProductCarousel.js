@@ -19,7 +19,7 @@ const ProductCarousel = props => {
 		<section className="main-container product-carousel">
 			<h2 className="product-carousel-title">Productos promocionados</h2>
 
-			<div className="products-carousel-container">
+			<div className="products-carousel-container mb-40px">
 				<ProductCard
 					title="Las Pistas De Blue Peluche Sonido Y Mov Int Original"
 					picture={ productImgFour }
@@ -58,7 +58,7 @@ const ProductCarousel = props => {
 
 			<h2 className="product-carousel-title">Quienes compraron este producto tambi&eacute;n compraron</h2>
 
-			<div className="products-carousel-container">
+			<div className="products-carousel-container pb-90px">
 				<ProductCard
 					title="Mu&ntilde;eco Lilo & Stitch X1 Coleccionable 8cm"
 					picture={ productImgNine }

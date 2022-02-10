@@ -143,3 +143,15 @@ p.blue-anchor:hover, span.blue-anchor:hover {
 	color: var(--grey);
 	flex-shrink: 0;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .sold-quantity,
+main.dark-mode .thirty-days-text,
+main.dark-mode .available-quantity,
+main.dark-mode .compra-protegida p,
+main.dark-mode .compra-protegida svg,
+main.dark-mode .mercado-puntos p,
+main.dark-mode .mercado-puntos svg {
+	color: rgba(230, 230, 230);
+}

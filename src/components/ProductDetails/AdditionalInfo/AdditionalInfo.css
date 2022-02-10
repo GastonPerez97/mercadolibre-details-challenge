@@ -25,3 +25,11 @@
 	height: 1px;
 	margin: 32px -16px;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .additional-info-title,
+main.dark-mode .additional-info-subtitle,
+main.dark-mode .text-grey {
+	color: rgb(230, 230, 230);
+}

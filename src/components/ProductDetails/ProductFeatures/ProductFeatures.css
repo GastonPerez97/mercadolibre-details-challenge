@@ -59,3 +59,18 @@
   	box-sizing: border-box;
 	margin-bottom: 12px;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .features-table tr:nth-child(odd) :first-child {
+	background-color: rgb(26, 26, 26);
+}
+
+main.dark-mode .features-table tr:nth-child(even) :first-child,
+main.dark-mode .features-table tr:nth-child(odd) :nth-child(2) {
+	background-color: rgb(32, 32, 32);
+}
+
+main.dark-mode .features-table {
+	border-color: rgb(255, 255, 255, 0.5);
+}

@@ -37,3 +37,13 @@ section.product-details-grid {
     font-weight: 400;
     margin-bottom: 24px;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .product-details-subtitle {
+	color: rgb(230, 230, 230);
+}
+
+main.dark-mode .product-details-hr {
+	background-color: rgb(255, 255, 255, 0.5);
+}

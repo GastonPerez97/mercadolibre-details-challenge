@@ -44,3 +44,15 @@
 	color: #00a650 !important;
 	margin-bottom: 3px;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .card-container {
+	background-color: #232323;
+	border-color: rgb(255, 255, 255, 0.5);
+}
+
+main.dark-mode .card-container h3,
+main.dark-mode .card-container p:not(.card-free-shipping) {
+	color: rgb(230, 230, 230);
+}

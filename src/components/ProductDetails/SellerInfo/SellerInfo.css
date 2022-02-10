@@ -123,3 +123,18 @@
 .more-info:hover {
 	color: #2968c8;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .seller-info h3,
+main.dark-mode .seller-info .text-grey,
+main.dark-mode .seller-info .reputation p,
+main.dark-mode .seller-info .reputation svg:not(.rep-check-icon) {
+	color: rgb(230, 230, 230);
+}
+
+main.dark-mode .seller-info .rep-check-icon {
+	background: transparent;
+	right: 5px;
+	top: 6px;
+}

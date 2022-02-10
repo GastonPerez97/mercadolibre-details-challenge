@@ -4,6 +4,11 @@ nav.nav-navbar {
 	border-bottom: 1px solid #d6d6d6;
 }
 
+nav.nav-navbar.burger-menu-on {
+	padding-bottom: 825px;
+	background-color: #FFF;
+}
+
 .navbar-search-container {
 	display: flex;
 	justify-content: space-between;
@@ -22,6 +27,10 @@ input::-webkit-input-placeholder {
 	border-radius: 2px;
 	background-color: #FFF;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-input-container svg {
+	cursor: pointer;
 }
 
 .search-input {
@@ -159,6 +168,7 @@ input::-webkit-input-placeholder {
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid #d6d6d6;
+	background-color: var(--meli-yellow);
 }
 
 .search-input-container-mobile {
@@ -266,4 +276,43 @@ input::-webkit-input-placeholder {
 	column-gap: 20px;
 	padding: 13px 0;
 	cursor: pointer;
+}
+
+.dark-mode-icon {
+	font-size: 13px;
+	cursor: default;
+}
+
+.btn-dark-mode {
+	display: flex;
+	align-items: center;
+	column-gap: 7px;
+	font-size: 25px;
+	margin-left: 33px;
+	cursor: pointer;
+	user-select: none;
+}
+
+/* -------- DARK MODE -------- */
+
+header.dark-mode .shipping-address:hover {
+	border-color: rgb(230, 230, 230, 0.5);
+}
+
+header.dark-mode .burger-list li,
+header.dark-mode .welcome-main h4 {
+	color: rgb(230, 230, 230);
+}
+
+header.dark-mode .search-icon-mobile {
+	color: rgba(0, 0, 0, 0.4) !important;
+}
+
+header.dark-mode .mobile-top-icon > path,
+header.dark-mode .burger-list li:nth-child(1) > svg > path {
+	stroke: rgb(230, 230, 230);
+}
+
+header.dark-mode .user-icon-mobile {
+	background-color: rgb(255, 255, 255, 0.2);
 }

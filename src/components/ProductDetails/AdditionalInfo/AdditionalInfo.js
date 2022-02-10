@@ -1,4 +1,5 @@
 import "./AdditionalInfo.css";
+
 import PaymentMethods from "./PaymentMethods/PaymentMethods"
 import Returns from "./Returns/Returns"
 import Warranty from "./Warranty/Warranty";
