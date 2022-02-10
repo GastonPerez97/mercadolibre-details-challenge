@@ -2,6 +2,8 @@
 
 # 🏆 Mercado Libre challenge
 
+https://meli-details-challenge.vercel.app/
+
 ![meli-details-challenge vercel app_](https://user-images.githubusercontent.com/58083159/153485432-6a644336-6309-4b95-8e4e-78c18a3b496c.jpg)
 
 ***Este repositorio está basado en el challenge de [Goncy](https://gonzalopozzo.com/) ¡Muchas gracias por tomarte el tiempo en armar este desafío!***
