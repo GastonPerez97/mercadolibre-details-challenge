@@ -44,3 +44,4 @@ Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo
 - [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos.
 - [x] Sección de características del producto, cards de productos e información adicional de la publicación (devolución gratis, garantía, medios de pago, otras publicaciones, etc).
 - [x] Mobile responsive.
+- [x] Burger Menu.
