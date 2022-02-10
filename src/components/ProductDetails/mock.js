@@ -508,7 +508,7 @@ const product = {
 		  {
 			id: 12,
 			title: "Bueno pero con problemas",
-			comments: "El producto es lindo, pero me vino un descosido.",
+			comments: "El producto es lindo, pero me vino un poco descosido.",
 			rating: 2,
 			likes: 0,
 			dislikes: 0

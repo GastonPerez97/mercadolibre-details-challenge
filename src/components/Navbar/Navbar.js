@@ -109,6 +109,17 @@ const Navbar = props => {
 						<input type="text" className="search-input-mobile" placeholder="Estoy buscando..." />
 					</div>
 
+					<div className="btn-dark-mode mx-10px">
+						<BsSun className="dark-mode-icon" />
+
+						{ props.darkMode
+							? <BsToggleOn onClick={ props.toggleDarkMode } /> 
+							: <BsToggleOff onClick={ props.toggleDarkMode } />
+						}
+
+						<BsMoon className="dark-mode-icon" />
+					</div>
+
 					{burgerMenu ?
 					<GrClose className="mobile-top-icon" onClick={ handleBurgerMenu } />
 					:

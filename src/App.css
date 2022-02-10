@@ -49,6 +49,10 @@
 	margin-right: 24px;
 }
 
+.mx-10px {
+	margin: 0 10px !important;
+}
+
 .mx-30px {
 	margin: 0 30px;
 }
@@ -159,13 +163,13 @@
 
 /* -------- DARK MODE -------- */
 
-/* header.dark-mode button {
-	background: none !important;
-} */
+header, main, footer, button, svg, p, span, small, h1, h2, h3, h4, h5, h6 {
+	transition: color 0.2s ease, background-color 0.2s ease;
+}
 
-/* body {
-	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-} */
+header, main, footer {
+	transition: background-color 0.2s ease;
+}
 
 header.dark-mode nav.nav-navbar,
 header.dark-mode nav.nav-navbar > *,

@@ -14,3 +14,9 @@
 	justify-content: space-between;
 	align-items: center;
 }
+
+/* -------- DARK MODE -------- */
+
+main.dark-mode .product-carousel-title {
+	color: rgb(230, 230, 230);
+}
