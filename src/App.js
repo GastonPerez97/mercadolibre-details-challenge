@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
 import ProductCarousel from "./components/ProductCarousel/ProductCarousel";
+import InfoHeader from "./components/InfoHeader/InfoHeader";
 
 const App = () => {
 	const [darkMode, setDarkMode] = useState(false);
@@ -13,6 +14,8 @@ const App = () => {
 
 	return (
 		<>
+			<InfoHeader />
+			
 			<header className={darkMode ? "dark-mode" : ""}>
 				<Navbar
 					darkMode={ darkMode }
