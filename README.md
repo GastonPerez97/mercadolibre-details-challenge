@@ -40,28 +40,40 @@ Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo
 ## ➕ Puntos extra:
 - [x] Poder agregar comentarios/opiniones (no deben guardarse en ningun lado):
 
-![image](https://user-images.githubusercontent.com/58083159/154815617-5973781e-60d4-461b-9e19-93246cbb8aa1.png)
+![ezgif-1-c4a97e57fe](https://user-images.githubusercontent.com/58083159/154816402-75f42886-a5c6-4908-be36-500fb010fc21.gif)
 
 - [x] Poder puntuar opiniones:
 
-![image](https://user-images.githubusercontent.com/58083159/154815736-51e13bcd-5203-489f-94f5-1c6119092f9c.png)
+![ezgif-1-438e60cc9b](https://user-images.githubusercontent.com/58083159/154816337-bec05f75-6199-4d89-846c-59a89a8f1f35.gif)
 
 - [x] Poder ver opiniones por tipo:
 
-![image](https://user-images.githubusercontent.com/58083159/154815760-b0e2d4ca-059f-48d6-a454-3b41cd714e9f.png)
+![ezgif-1-b6efa3a5e3](https://user-images.githubusercontent.com/58083159/154816384-098ca20b-7fe9-43ba-b918-b609e3de5917.gif)
 
-- [x] Modo oscuro.
+- [x] Modo oscuro:
+
+![ezgif-1-2cd084c64c](https://user-images.githubusercontent.com/58083159/154816362-bbb2afe4-e5a0-4e50-bbb7-eb2508c5e610.gif)
 
 ## 👨‍💻 Agregados por mi cuenta:
 - [x] Poder agregar preguntas:
 
-![image](https://user-images.githubusercontent.com/58083159/154815507-877ff571-8b4c-409e-8e4e-4968ac051ae7.png)
+![ezgif-1-084bc00748](https://user-images.githubusercontent.com/58083159/154816440-01445948-c7f9-4549-bf4c-cc5883d742ed.gif)
 
 - [x] Validaciones al agregar una pregunta u opinión:
 
+![ezgif-1-13250489c9](https://user-images.githubusercontent.com/58083159/154816513-2ef7366b-a340-4898-8cfa-b5d6df48b5b6.gif)
 
+![ezgif-1-e2ec35c020](https://user-images.githubusercontent.com/58083159/154816644-c698adf4-8a02-4630-8f7a-949d47f85242.gif)
 
-- [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos.
+- [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos:
+
+![ezgif-1-3d074f8df5](https://user-images.githubusercontent.com/58083159/154816674-ffc48246-2645-4bd0-a218-08ed6b597537.gif)
+
 - [x] Sección de características del producto, cards de productos e información adicional de la publicación (devolución gratis, garantía, medios de pago, otras publicaciones, etc).
-- [x] Mobile responsive.
-- [x] Burger Menu.
+- [x] Mobile responsive:
+
+![ezgif-1-16f05fc74d](https://user-images.githubusercontent.com/58083159/154816726-7e00d1f9-561d-4b3f-9044-c790ced646a5.gif)
+
+- [x] Burger Menu:
+
+![ezgif-1-e9ae50f316](https://user-images.githubusercontent.com/58083159/154816811-30a5ffe1-81e5-4e0a-8f34-0a19c3f92e7b.gif)
