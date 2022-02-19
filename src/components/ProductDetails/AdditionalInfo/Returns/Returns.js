@@ -1,5 +1,3 @@
-import "./Returns.css";
-
 const Returns = () => {
 	return (
 		<div>

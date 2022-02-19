@@ -1,5 +1,3 @@
-import "./PaymentMethods.css";
-
 import mercadoCredito from "../../../../assets/img/payment-methods/credit/mercado-credito.png";
 import visaCredit from  "../../../../assets/img/payment-methods/credit/visa.png";
 import americanCredit from  "../../../../assets/img/payment-methods/credit/american-express.png";

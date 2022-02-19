@@ -1,5 +1,3 @@
-import "./Warranty.css";
-
 const Warranty = () => {
 	return (
 		<div>
