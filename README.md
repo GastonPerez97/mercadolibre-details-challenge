@@ -63,7 +63,7 @@ Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo
 
 ![ezgif-1-13250489c9](https://user-images.githubusercontent.com/58083159/154816513-2ef7366b-a340-4898-8cfa-b5d6df48b5b6.gif)
 
-![ezgif-1-e2ec35c020](https://user-images.githubusercontent.com/58083159/154816644-c698adf4-8a02-4630-8f7a-949d47f85242.gif)
+![ezgif-1-fa83f53edc](https://user-images.githubusercontent.com/58083159/154818078-ec05f851-3ae2-4187-baec-c0bcc5876ffe.gif)
 
 - [x] Resumen de opiniones con puntuación promedio del producto, utilizando datos dinámicos:
 
