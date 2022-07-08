@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Navbar from "./components/Navbar/Navbar";
 import Breadcrumbs from "./components/Breadcrumbs/Breadcrumbs";
@@ -14,14 +14,16 @@ const App = () => {
 
 	const toggleDarkMode = () => setDarkMode(prevState => !prevState);
 
-	Swal.fire({
-		title: "¡Atención!",
-		text: "Esta web NO es el sitio oficial de Mercado Libre, se trata de un challenge de Frontend, no es un intento de phishing hacia los usuarios que la visitan.",
-		icon: "warning",
-		confirmButtonText: "¡Entendido!",
-		confirmButtonColor: "#3484fa",
-		backdrop: "rgba(0, 0, 0, 0.8)",
-	});
+	useEffect(() => {
+		Swal.fire({
+			title: "¡Atención!",
+			text: "Esta web NO es el sitio oficial de Mercado Libre, se trata de un challenge de Frontend, no es un intento de phishing hacia los usuarios que la visitan.",
+			icon: "warning",
+			confirmButtonText: "¡Entendido!",
+			confirmButtonColor: "#3484fa",
+			backdrop: "rgba(0, 0, 0, 0.8)",
+		});
+	}, []);
 
 	return (
 		<>
