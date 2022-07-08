@@ -2,7 +2,7 @@
 
 # 🏆 Mercado Libre challenge
 
-***Lamentablemente el deploy del proyecto tuvo que ser eliminado debido a varios reportes por intento de phishing. Podés probar el proyecto haciendo un `git clone` y ejecutando el comando `npm start`.***
+https://meli-details-challenge.netlify.app/
 
 ![meli-details-challenge vercel app_ (8)](https://user-images.githubusercontent.com/58083159/154566653-cde45345-38d8-40fc-83a3-d29260b53580.jpg)
 ![localhost_3000_](https://user-images.githubusercontent.com/58083159/154815106-dc06ae2c-0136-4638-9c08-e8beee8005b8.jpg)
